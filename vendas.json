@@ -136,5 +136,22 @@
         ],
         "total": 22.0,
         "metodo_pagamento": "Dinheiro"
+    },
+    {
+        "data": "2025-03-31T16:13:26",
+        "itens": [
+            {
+                "produto": "Coca cola",
+                "quantidade": 1,
+                "preco": 5.0
+            },
+            {
+                "produto": "Coxinha",
+                "quantidade": 2,
+                "preco": 6.0
+            }
+        ],
+        "total": 17.0,
+        "metodo_pagamento": "Dinheiro"
     }
 ]

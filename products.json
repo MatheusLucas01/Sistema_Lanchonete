@@ -6,7 +6,7 @@
         "price": 6.0,
         "category": "Lanche",
         "image": "",
-        "stock": 83
+        "stock": 81
     },
     {
         "id": 10,
@@ -15,7 +15,7 @@
         "price": 5.0,
         "category": "Bebida",
         "image": "",
-        "stock": 88
+        "stock": 87
     },
     {
         "id": 11,
