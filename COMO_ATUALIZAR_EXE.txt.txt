@@ -1,0 +1,80 @@
+
+
+Notas Workflow para Atualizar o Executável (MRLanches.exe)
+
+Objetivo Gerar um novo arquivo .exe que inclua as últimas modificações feitas nos arquivos de código Python (.py). O executável não se atualiza sozinho.
+
+Passos
+
+Modificar o Código Fonte
+
+Faça as alterações desejadas nos seus arquivos .py (ex interface.py, main.py, ou qualquer outro módulo que você criou).
+
+Salve todas as suas alterações.
+
+Testar o Código Fonte
+
+Abra o TerminalPrompt de Comando.
+
+Ative seu Ambiente Virtual (venv)
+
+Navegue até a pasta raiz do projeto cd CUsersUSERprojeto
+
+Execute venvScriptsactivate.bat (CMD) ou venvScriptsActivate.ps1 (PowerShell)
+
+Execute o script principal para testar as mudanças no ambiente de desenvolvimento
+
+python main.py
+
+
+Verifique se tudo funciona como esperado (sem erros, novas funcionalidades ok). Corrija os problemas no código .py se necessário.
+
+Reconstruir o Executável com PyInstaller
+
+Certifique-se de que seu terminal ainda está na pasta raiz do projeto (CUsersUSERprojeto).
+
+Certifique-se de que seu ambiente virtual (venv) está ativo.
+
+Execute o comando PyInstaller completo (incluindo o ícone e todos os dados)
+
+pyinstaller --clean --windowed --name MRLanches ^
+--icon=srcassetsicone.ico ^
+--add-data products.json;. ^
+--add-data vendas.json;. ^
+--add-data srcassets;srcassets ^
+--hidden-import PyQt6.sip ^
+--hidden-import pyqtgraph ^
+--hidden-import collections.defaultdict ^
+main.py
+IGNORE_WHEN_COPYING_START
+content_copy
+download
+Use code with caution.
+Bash
+IGNORE_WHEN_COPYING_END
+
+(Lembrete --clean remove builds antigos. --windowed é para a versão final sem console. Troque para --console se precisar depurar o executável).
+
+Aguarde o PyInstaller terminar. Ele irá recriaratualizar as pastas build and dist.
+
+Localizar e Testar o Novo Executável
+
+Navegue para fora da pasta do projeto no seu terminal (cd ..) ou feche-o.
+
+Abra a pasta distMRLanches no Explorador de Arquivos.
+
+Execute o novo MRLanches.exe.
+
+Teste TUDO novamente, especialmente as funcionalidades que você modificou, para garantir que a versão compilada funciona como esperado. Verifique se os arquivos de dados (.json, .png, .ico) foram incluídos corretamente na pasta distMRLanches.
+
+Resumo Curto Editar .py - Testar com python main.py - Rodar pyinstaller ... - Testar .exe da pasta dist.
+
+Dicas Importantes
+
+Backup Considere fazer um backup da sua pasta de projeto antes de rodar o PyInstaller, especialmente após grandes mudanças.
+
+Controle de Versão (Git) Usar Git é a melhor forma de gerenciar seu código, permitindo rastrear mudanças e reverter facilmente se algo der errado.
+
+Depuração do .exe Se o .exe falhar, execute o comando PyInstaller sem --windowed (ou com --console) para ver mensagens de erro no console que aparece.
+
+Salve estas notas para referência!

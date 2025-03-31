@@ -1,0 +1,6 @@
+__pycache__/
+*.db
+build/
+dist/
+temp_update/
+*.spec

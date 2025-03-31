@@ -1,0 +1,140 @@
+[
+    {
+        "data": "2025-03-31T13:52:09",
+        "itens": [
+            {
+                "produto": "Coca cola",
+                "quantidade": 2,
+                "preco": 5.0
+            },
+            {
+                "produto": "Coxinha",
+                "quantidade": 2,
+                "preco": 6.0
+            }
+        ],
+        "total": 22.0,
+        "metodo_pagamento": "Dinheiro"
+    },
+    {
+        "data": "2025-03-31T15:38:43",
+        "itens": [
+            {
+                "produto": "Coca cola",
+                "quantidade": 1,
+                "preco": 5.0
+            },
+            {
+                "produto": "Coxinha",
+                "quantidade": 1,
+                "preco": 6.0
+            }
+        ],
+        "total": 11.0,
+        "metodo_pagamento": "Dinheiro"
+    },
+    {
+        "data": "2025-03-31T15:41:33",
+        "itens": [
+            {
+                "produto": "Coca cola",
+                "quantidade": 1,
+                "preco": 5.0
+            },
+            {
+                "produto": "Coxinha",
+                "quantidade": 1,
+                "preco": 6.0
+            }
+        ],
+        "total": 11.0,
+        "metodo_pagamento": "Dinheiro"
+    },
+    {
+        "data": "2025-03-31T15:43:23",
+        "itens": [
+            {
+                "produto": "Coca cola",
+                "quantidade": 1,
+                "preco": 5.0
+            },
+            {
+                "produto": "Coxinha",
+                "quantidade": 2,
+                "preco": 6.0
+            }
+        ],
+        "total": 17.0,
+        "metodo_pagamento": "Dinheiro"
+    },
+    {
+        "data": "2025-03-31T15:51:26",
+        "itens": [
+            {
+                "produto": "Coca cola",
+                "quantidade": 1,
+                "preco": 5.0
+            }
+        ],
+        "total": 5.0,
+        "metodo_pagamento": "Cartão Crédito"
+    },
+    {
+        "data": "2025-03-31T15:51:35",
+        "itens": [
+            {
+                "produto": "Coxinha",
+                "quantidade": 2,
+                "preco": 6.0
+            }
+        ],
+        "total": 12.0,
+        "metodo_pagamento": "Dinheiro"
+    },
+    {
+        "data": "2025-03-31T15:57:33",
+        "itens": [
+            {
+                "produto": "Coca cola",
+                "quantidade": 1,
+                "preco": 5.0
+            },
+            {
+                "produto": "Coxinha",
+                "quantidade": 2,
+                "preco": 6.0
+            }
+        ],
+        "total": 17.0,
+        "metodo_pagamento": "Cartão Crédito"
+    },
+    {
+        "data": "2025-03-31T15:57:38",
+        "itens": [
+            {
+                "produto": "Coca cola",
+                "quantidade": 1,
+                "preco": 5.0
+            }
+        ],
+        "total": 5.0,
+        "metodo_pagamento": "PIX"
+    },
+    {
+        "data": "2025-03-31T15:57:51",
+        "itens": [
+            {
+                "produto": "Coxinha",
+                "quantidade": 2,
+                "preco": 6.0
+            },
+            {
+                "produto": "Coca cola",
+                "quantidade": 2,
+                "preco": 5.0
+            }
+        ],
+        "total": 22.0,
+        "metodo_pagamento": "Dinheiro"
+    }
+]

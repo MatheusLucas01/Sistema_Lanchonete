@@ -1,0 +1,29 @@
+[
+    {
+        "id": 9,
+        "name": "Coxinha",
+        "description": "",
+        "price": 6.0,
+        "category": "Lanche",
+        "image": "",
+        "stock": 83
+    },
+    {
+        "id": 10,
+        "name": "Coca cola",
+        "description": "",
+        "price": 5.0,
+        "category": "Bebida",
+        "image": "",
+        "stock": 88
+    },
+    {
+        "id": 11,
+        "name": "Coxinha",
+        "description": "",
+        "price": 6.0,
+        "category": "Lanche",
+        "image": "",
+        "stock": 50
+    }
+]
