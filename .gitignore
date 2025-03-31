@@ -4,3 +4,13 @@ build/
 dist/
 temp_update/
 *.spec
+vendas.json
+produtos.json
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+lanches.db
+build
+dist
